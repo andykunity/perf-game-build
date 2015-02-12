@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: eb5b89a500a4c426eb577ad416b2bb55
+guid: 39eba2375a43142b4ad0d1f2ed529151
 PluginImporter:
   serializedVersion: 1
   iconMap: {}
@@ -9,10 +9,6 @@ PluginImporter:
     Any:
       enabled: 1
       settings: {}
-    Editor:
-      enabled: 0
-      settings:
-        DefaultValueInitialized: true
   userData: 
   assetBundleName: 
   assetBundleVariant: 
