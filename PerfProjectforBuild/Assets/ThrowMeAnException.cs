@@ -19,7 +19,7 @@ public class ThrowMeAnException : MonoBehaviour
 
 	public void Crash()
 	{
-		throw new Exception("Pressed the button");
+		throw new Exception("Pressed the button, this is the new one on ios");
 	}
 	
 
