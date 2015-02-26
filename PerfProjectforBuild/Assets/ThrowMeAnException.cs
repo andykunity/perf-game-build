@@ -9,8 +9,8 @@ public class ThrowMeAnException : MonoBehaviour
     void Awake()
     {
         //Replace the "1" with your project id
-		Environment.environment = "staging";
-		CrashReporting.Init("0d40f105-a012-4c55-92e0-6f0c9b119a0e");
+		//Environment.environment = "staging";
+		CrashReporting.Init("ac7e0c97-ff9b-4eba-883c-c1b71a601487");
 
     }
 
@@ -20,7 +20,7 @@ public class ThrowMeAnException : MonoBehaviour
 
 	public void Crash()
 	{
-		throw new Exception("This is our final RC for releasing on 2/26");
+		throw new Exception("Testing on Production");
 	}
 	
 
